@@ -1,0 +1,87 @@
+.users-page {
+  min-height: calc(100vh - 96px);
+  padding: 2rem;
+  background: linear-gradient(180deg, #f7f9fc 0%, #eef2ff 100%);
+  color: #111827;
+}
+
+.users-header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.75rem;
+}
+
+.users-header h1 {
+  margin: 0;
+  font-size: clamp(1.9rem, 2.5vw, 2.6rem);
+}
+
+.users-header p {
+  margin: 0;
+  color: #475569;
+}
+
+.users-intro {
+  margin-bottom: 1.5rem;
+}
+
+.users-intro p {
+  max-width: 700px;
+  margin: 0;
+  color: #64748b;
+}
+
+.refresh-button {
+  min-width: 140px;
+  padding: 0.85rem 1.25rem;
+  border-radius: 0.9rem;
+  border: none;
+  background: #2563eb;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.refresh-button:hover {
+  transform: translateY(-1px);
+  background: #1d4ed8;
+}
+
+.refresh-button:hover {
+  background: #1d4ed8;
+}
+
+.users-table-wrapper {
+  overflow-x: auto;
+  background: #ffffff;
+  border-radius: 24px;
+  padding: 1rem;
+  box-shadow: 0 18px 40px rgba(15, 23, 42, 0.06);
+}
+
+.users-table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 760px;
+}
+
+.users-table th,
+.users-table td {
+  padding: 1rem 1.25rem;
+  border-bottom: 1px solid #e2e8f0;
+  text-align: left;
+}
+
+.users-table th {
+  background: #f8fafc;
+  color: #475569;
+  font-weight: 600;
+}
+
+.users-table tbody tr:hover {
+  background: #f8fafc;
+}
